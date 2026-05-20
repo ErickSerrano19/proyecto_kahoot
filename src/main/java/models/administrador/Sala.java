@@ -7,7 +7,7 @@ public class Sala {
     private boolean estado;
     private int capacidad;
     private int jugadores;
-    private java.util.Timer tiempo;
+    
 
     public Sala(int código, String nombreSala, boolean estado) {
         this.código = código;
@@ -15,7 +15,6 @@ public class Sala {
         this.estado = estado;
         this.capacidad = 40;
         this.jugadores = 0;
-        this.tiempo = new java.util.Timer();
     }
 
     public int getCódigo() {
@@ -54,9 +53,6 @@ public class Sala {
         this.jugadores = jugadores;
     }
 
-    public java.util.Timer getTiempo() {
-        return tiempo;
-    }
 
     
 

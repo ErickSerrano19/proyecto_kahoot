@@ -1,0 +1,29 @@
+.root-pane {
+    -fx-background-color: linear-gradient(to bottom right, #15202b, #1b3a54);
+}
+
+.button-pane {
+    -fx-background-color: rgba(255, 255, 255, 0.12);
+    -fx-background-radius: 24;
+    -fx-padding: 28;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 20, 0.0, 0, 8);
+}
+
+.main-button {
+    -fx-min-width: 200px;
+    -fx-font-size: 16px;
+    -fx-font-weight: 600;
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(to right, #3b82f6, #6366f1);
+    -fx-background-radius: 999;
+    -fx-padding: 12 20 12 20;
+}
+
+.main-button:hover {
+    -fx-background-color: linear-gradient(to right, #60a5fa, #818cf8);
+}
+
+.main-button:pressed {
+    -fx-background-color: linear-gradient(to right, #2563eb, #4338ca);
+    -fx-effect: innershadow(two-pass-box, rgba(0,0,0,0.2), 8, 0.0, 0, 2);
+}
